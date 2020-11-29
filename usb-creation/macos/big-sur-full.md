@@ -1,4 +1,4 @@
-# Making installer for the latest version of macOS (currently Big Sur 11)
+# Making the installer for the latest version of macOS (currently Big Sur 11)
 
 It's pretty simple, really. This guide will show you how to create a **full installer** for macOS (which enables you to not have to be connected to the internet at install time.) This guide works in any version of macOS from El Capitan onwards. All you need are the following:
 
