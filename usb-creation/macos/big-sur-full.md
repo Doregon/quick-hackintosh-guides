@@ -9,6 +9,7 @@ It's pretty simple, really. This guide will show you how to create a **full inst
 ## 1. Aquiring the installer
 
 Whether or not you're currently running Big Sur, you can **download the installer from the App Store.**
+
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/big-sur-full-1.png" width=75%>
 </p>
