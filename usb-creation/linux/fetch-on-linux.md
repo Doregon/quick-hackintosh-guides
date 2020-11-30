@@ -1,4 +1,4 @@
-# Making the installer for macOS
+# Making the installer for macOS on Linux
 #### Currently Lion 10.7 - Big Sur 11
 
 Support for Mac OS Extended (Journaled) drives isn't the same in Linux, and thus we can't make a full offline installer for macOS. However, using some command line tools and a python script, we can still make a **recovery installer** to let us get macOS. To get started, you'll need:
