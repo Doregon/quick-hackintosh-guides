@@ -1,4 +1,4 @@
-# Making the installer for earlier versions of macOS
+# Making the installer for earlier versions of macOS on a Mac
 #### Yosemite 10.10 to Sierra 10.12
 
 If you can't use High Sierra 10.13 or newer, but need Yosemite 10.10, El Capitan 10.11, or Sierra 10.12, you can make a **full** installer (which enables you to not have to be connected to the internet at install time.)  
