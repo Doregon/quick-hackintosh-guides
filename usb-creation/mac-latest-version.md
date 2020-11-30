@@ -1,4 +1,4 @@
-# Making the installer for the latest version of macOS
+# Making the installer for the latest version of macOS on a Mac
 #### Currently macOS Big Sur 11
 
 It's pretty simple, really. This guide will show you how to create a **full installer** for macOS (which enables you to not have to be connected to the internet at install time.) This guide works in any version of macOS from El Capitan (10.11) onwards. All you need are the following:
@@ -8,7 +8,7 @@ It's pretty simple, really. This guide will show you how to create a **full inst
 
 ## 1. Aquiring the installer
 
-Whether or not you're currently running Big Sur, you can **download the installer from the App Store.**
+Whether or not you're currently running the latest version, you can **download the installer from the App Store.**
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/big-sur-full-1.png" width=75%>
@@ -52,4 +52,4 @@ Once this is completed, you can safely remove your fresh new macOS Big Sur Insta
 
 ## 4. Next steps
 
-If you need new kexts for Big Sur but are like me and don't want to accidently delete your current OS in case something goes wrong, you can **copy your current EFI folder** to the USB's EFI partition and use that to test. If a kext doesn't work under Big Sur (will probably happen to you), check out **kext.me**, a nice catalog of kexts, bootloaders, and guides for you to enjoy.
+If you need new kexts for the release you chose but are like me and don't want to accidently delete your current OS in case something goes wrong, you can **copy your current EFI folder** to the USB's EFI partition and use that to test. If a kext doesn't work under Big Sur (will probably happen to you), check out **kext.me**, a nice catalog of kexts, bootloaders, and guides for you to enjoy.
