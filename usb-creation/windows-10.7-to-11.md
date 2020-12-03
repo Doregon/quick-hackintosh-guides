@@ -1,5 +1,5 @@
 # Making the installer for macOS on Windows
-#### Currently Lion 10.7 to Big Sur 11
+#### Currently High Sierra 10.13 to Big Sur 11
 
 Support for Mac OS Extended (Journaled) is nonexistent in Windows. Because of this, you **cannot** build a full installer for macOS. However, you can build an installer for the recovery image, and all you'll need are these things:
 
