@@ -4,7 +4,7 @@
 Support for Mac OS Extended (Journaled) drives isn't the same in Linux, and thus we can't make a full offline installer for macOS. However, using some command line tools and a python script, we can still make a **recovery installer** to let us get macOS. To get started, you'll need:
 
 * A 4GB flash drive
-* fetch-macOS-v2.py from <a href="https://github.com/kholia/OSX-KVM">this</a> repository
+* fetch-macOS.py from <a href="https://github.com/kholia/OSX-KVM">this</a> repository
 * An internet connection to download the file
 * dmg2img (preinstalled on Ubuntu 20.04 and later)
 * (Some) knowledge of the Linux terminal
@@ -12,44 +12,44 @@ Support for Mac OS Extended (Journaled) drives isn't the same in Linux, and thus
 
 ## 1. Aquiring the recovery installer
 
-To get the recovery installer, download the **fetch-macOS-v2.py** file from the repository I told you to earlier. Once that's completed, type the following commands:
+To get the recovery installer, download the **fetch-macOS.py** file from the repository I told you to earlier. Once that's completed, type the following commands:
 
 * `cd Downloads` - or wherever you downloaded the python script
-* `chmod +x fetch-macOS-v2.py` - will let you run the script, **required**
+* `chmod +x fetch-macOS.py` - will let you run the script, **required**
 
 Now, run one of the commands below depending on the OS you'd like to have.
 
 ##### Lion(10.7)  
-`python ./fetch-macOS-v2.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download`  
-`python ./fetch-macOS-v2.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download`  
+`python ./fetch-macOS.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download`  
+`python ./fetch-macOS.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download`  
 
 ##### Mountain Lion(10.8)  
-`python ./fetch-macOS-v2.py -b Mac-7DF2A3B5E5D671ED -m 00000000000F65100 download`  
+`python ./fetch-macOS.py -b Mac-7DF2A3B5E5D671ED -m 00000000000F65100 download`  
 
 ##### Mavericks(10.9)  
-`python ./fetch-macOS-v2.py -b Mac-F60DEB81FF30ACF6 -m 00000000000FNN100 download`  
+`python ./fetch-macOS.py -b Mac-F60DEB81FF30ACF6 -m 00000000000FNN100 download`  
 
 ##### Yosemite(10.10)  
-`python ./fetch-macOS-v2.py -b Mac-E43C1C25D4880AD6 -m 00000000000GDVW00 download`  
+`python ./fetch-macOS.py -b Mac-E43C1C25D4880AD6 -m 00000000000GDVW00 download`  
 
 ##### El Capitan(10.11)  
-`python ./fetch-macOS-v2.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00 download`  
+`python ./fetch-macOS.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00 download`  
 
 ##### Sierra(10.12)  
-`python ./fetch-macOS-v2.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00 download`  
+`python ./fetch-macOS.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00 download`  
 
 ##### High Sierra(10.13)  
-`python ./fetch-macOS-v2.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download`  
-`python ./fetch-macOS-v2.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download`  
+`python ./fetch-macOS.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download`  
+`python ./fetch-macOS.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download`  
 
 ##### Mojave(10.14)
-`python ./fetch-macOS-v2.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download`  
+`python ./fetch-macOS.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download`  
 
 ##### Catalina(10.15)
-`python ./fetch-macOS-v2.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download`  
+`python ./fetch-macOS.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download`  
 
 ##### Big Sur (11)
-`python ./fetch-macOS-v2.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download ` 
+`python ./fetch-macOS.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download ` 
 
 
 ## 2. Preparing to flash
