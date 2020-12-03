@@ -1,6 +1,6 @@
 # Making the installer for macOS on Linux
 #### Currently Lion 10.7 - Big Sur 11
-#### THIS GUIDE IS INCORRECT, DO NOT USE!
+
 Support for Mac OS Extended (Journaled) drives isn't the same in Linux, and thus we can't make a full offline installer for macOS. However, using some command line tools and a python script, we can still make a **recovery installer** to let us get macOS. To get started, you'll need:
 
 * A 4GB flash drive
@@ -18,6 +18,7 @@ To get the recovery installer, download the latest release of OpenCorePkg from t
 * `chmod +x fetch-macOS.py` - will let you run the script, **required**
 
 Now, run one of the commands below depending on the OS you'd like to have.
+**If you're downloading a version of macOS older than High Sierra**, your file will be named "RecoveryImage.dmg". If that's the case, follow all the steps but replace any instance of "BaseSystem.dmg" with "RecoveryImage.dmg"
 
 ##### Lion(10.7)  
 `python ./macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download`  
@@ -108,4 +109,4 @@ Now, it's all formatted and ready for you to flash the image. Type in `sudo dmg2
 
 ## 4. Next steps
 
-If you need new kexts for the release you chose but are like me and don't want to accidently delete your current OS in case something goes wrong, you can **copy your current EFI folder** to the USB's EFI partition and use that to test. If a kext doesn't work with the OS release you selected, check out **kext.me**, a nice catalog of kexts, bootloaders, and guides for you to enjoy.
+If you need new kexts for the release you chose but are like me and don't want to accidently delete your current OS in case something goes wrong, you can **copy your current EFI folder** to the USB's EFI partition and use that to test.
