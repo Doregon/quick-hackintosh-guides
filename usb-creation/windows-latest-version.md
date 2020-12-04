@@ -39,13 +39,13 @@ Now head over to the **Ubuntu downloads** page and choose to download Ubuntu Des
 
 **NOTE:** XD I had to switch to my Hackintosh because you can't run a VM inside a VM. The instructions still work in Windows, though.
 
-Back in VirtualBox, enter the Create dialog to make a new virtual machine, and **select the "Expert Mode"** button at the bottom of the window. Set the memory to an **amount over 4GB**, and **change the hard disk option** to "Do not add a virtual hard disk".
+Back in VirtualBox, enter the Create dialog to make a new virtual machine, and **select the "Expert Mode"** button at the bottom of the window. Set the memory to an **amount over 4GB**, and **change the hard disk option** to "Do not add a virtual hard disk". Also make sure you put a name and **set the OS type to Linux with Ubuntu (64-bit)** as the version
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-4.png" width=75%>
 </p>
 
-Hit the "Create" button and then **don't start it!** Go to the virtual machine's Settings window and apply the following:
+Hit the "Create" button but **don't start it!** Go to the virtual machine's Settings window and apply the following:
 
 ##### System category
 
