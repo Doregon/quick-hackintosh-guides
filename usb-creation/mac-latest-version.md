@@ -8,16 +8,10 @@ It's pretty simple, really. This guide will show you how to create a **full inst
 
 ## 1. Aquiring the installer
 
-Whether or not you're currently running the latest version, you can **download the installer from the App Store.**
+Whether or not you're currently running the latest version, you can **download the installer from the App Store. If you're running macOS Mojave 10.14 or later**, it will open System Preferences and confirm if you want to download it.
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/big-sur-full-1.png" width=75%>
-</p>
-
-**If you're running macOS Mojave 10.14 or later**, it will open System Preferences and confirm if you want to download it.
-
-<p align=center>
-<img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/big-sur-full-2.png" width=75%>
 </p>
 
 ## 2. Preparing to flash
