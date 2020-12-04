@@ -42,7 +42,7 @@ Now head over to the **Ubuntu downloads** page and choose to download Ubuntu Des
 Back in VirtualBox, enter the Create dialog to make a new virtual machine, and **select the "Expert Mode"** button at the bottom of the window. Set the memory to an **amount over 4GB**, and **change the hard disk option** to "Do not add a virtual hard disk".
 
 <p align=center>
-<img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-3.png" width=75%>
+<img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-4.png" width=75%>
 </p>
 
 Hit the "Create" button and then **don't start it!** Go to the virtual machine's Settings window and apply the following:
