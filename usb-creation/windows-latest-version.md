@@ -81,11 +81,16 @@ In the menu bar (displays right under the virtual machine's title bar on Windows
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-7.png" width=50%>
 </p>
 
-Next, type the following commands **(once the system recognizes the CD image)**.
+Next, type the following commands **(once the system recognizes the CD image)**. This will install the VirtualBox Guest Additions files to the Ubuntu guest, and it's required to continue. 
+
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-8.png" width=75%>
 </p>
 
+Now, in the menu bar, **select Devices > USB** and find your USB in the list of them attached to your PC.
+
 <p align=center>
 <img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/win-virtualbox-9.png" width=75%>
 </p>
+
+Once you've successfully gotten the USB passed through to the Ubuntu virtual machine, **follow the steps listed in the Linux guides to make your installer.**
