@@ -19,10 +19,6 @@ Whether or not you're currently running the latest version, you can **download t
 
 Once it's downloaded, it will most likely open itself up. Because we want to make an installer, we can hit **Install macOS > Quit** in the menu bar.
 
-<p align=center>
-<img src="https://raw.githubusercontent.com/Doregon/hackintosh-guides/main/images/big-sur-full-3.png" width=75%>
-</p>
-
 Now, **open up Disk Utility** and hit the View Options button in the top left corner of the window. In that dropdown, select **Show All Devices**. Then, **find your USB** in the sidebar and select the root of it (not the partitions in it!) and select Erase. **Use Mac OS Extended (Journaled)** because the installer can't be booted from APFS drives.
 
 <p align=center>
